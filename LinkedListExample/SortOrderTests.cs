@@ -18,11 +18,27 @@ namespace LinkedListExample
         }
 
         [TestMethod]
-        public void CanAddElement()
+        public void CanAddPositiveElement()
         {
             // arrange
             var linkedList = new LinkedList();
             const int value = 13;
+            var unsortedList = new List<int> { value };
+
+            // act
+            linkedList.AddRange(unsortedList.ToArray());
+
+            // assert
+            Assert.AreEqual(1, linkedList.Nodes.Count());
+            Assert.AreEqual(value, linkedList.Nodes.FirstOrDefault());
+        }
+
+        [TestMethod]
+        public void CanAddNegativeElement()
+        {
+            // arrange
+            var linkedList = new LinkedList();
+            const int value = -13;
             var unsortedList = new List<int> { value };
 
             // act
@@ -46,7 +62,7 @@ namespace LinkedListExample
             // assert
             Assert.AreEqual(2, linkedList.Nodes.Count());
         }
-        
+
         [TestMethod]
         public void SortOrderOfAnyNumbers()
         {
@@ -57,7 +73,7 @@ namespace LinkedListExample
             // act
             linkedList.AddRange(unsortedList.ToArray());
             var items = linkedList.Nodes;
-            
+
             // assert
             Assert.IsTrue(items.SequenceEqual(unsortedList.OrderBy(i => i)));
         }
