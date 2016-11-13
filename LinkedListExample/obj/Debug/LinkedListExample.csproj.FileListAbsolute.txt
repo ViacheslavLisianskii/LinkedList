@@ -1,0 +1,7 @@
+c:\users\fier\documents\visual studio 2015\LinkedListExample\LinkedListExample\bin\Debug\LinkedListExample.dll
+c:\users\fier\documents\visual studio 2015\LinkedListExample\LinkedListExample\bin\Debug\LinkedListExample.pdb
+c:\users\fier\documents\visual studio 2015\LinkedListExample\LinkedListExample\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\fier\documents\visual studio 2015\LinkedListExample\LinkedListExample\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+c:\users\fier\documents\visual studio 2015\LinkedListExample\LinkedListExample\obj\Debug\LinkedListExample.csprojResolveAssemblyReference.cache
+c:\users\fier\documents\visual studio 2015\LinkedListExample\LinkedListExample\obj\Debug\LinkedListExample.dll
+c:\users\fier\documents\visual studio 2015\LinkedListExample\LinkedListExample\obj\Debug\LinkedListExample.pdb
